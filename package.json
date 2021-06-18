@@ -2,11 +2,11 @@
   "name": "udhaar_home",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev:css": "tailwindcss -o src/tailwind.css -w",
     "dev:server": "parcel src/index.html",
-    "dev": "npm-run-all --parallel dev:*"
+    "dev": "npm-run-all --parallel dev:*",
+    "build": "tailwindcss -o src/tailwind.css && parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
