@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import Navbar from "../components/Navbar/Navbar"
 
 export default function Home() {
   return (
-    <Layout>
-      <div class="m-24 text-green-900">Hello world!</div>
-    </Layout>
+    <div className="bg-[#D7EBFE] p-2">
+      <Layout>
+        <Navbar />
+      </Layout>
+    </div>
   )
 }
