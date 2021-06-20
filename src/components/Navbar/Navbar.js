@@ -1,6 +1,6 @@
 import React from "react"
 import NavbarLink from "./NavbarLink"
-import NavButton from "./NavButton"
+import NavButton from "../NavButton"
 
 export default function Navbar() {
   return (
@@ -17,14 +17,12 @@ export default function Navbar() {
         <NavButton
           link="/"
           text="Login"
-          bgColor="bg-[#1789FC]"
-          border="border-[#1789FC]"
+          classes="bg-[#1789FC] py-2 hover:text-gray-900 px-8 font-bold border-[#1789FC] hover:bg-[#D7EBFE]"
         />
         <NavButton
           link="/"
           text="Sign up"
-          bgColor="bg-[#CD4B13]"
-          border="border-[#CD4B13]"
+          classes="bg-[#CD4B13] py-2 hover:text-gray-900 px-8 font-bold border-[#CD4B13] hover:bg-[#D7EBFE]"
         />
       </div>
     </div>
