@@ -6,7 +6,7 @@ import Features from "../components/Features"
 
 export default function Home() {
   return (
-    <div className="bg-[#D7EBFE] p-2">
+    <div className="bg-[#D7EBFE]">
       <Layout>
         <Navbar />
         <Introduction />

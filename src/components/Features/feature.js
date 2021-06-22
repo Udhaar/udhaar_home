@@ -2,11 +2,11 @@ import React from "react"
 
 export default function Feature({ imgSrc, text }) {
   return (
-    <div className="flex-1 rounded-md overflow-hidden">
-      <div className="p-8 bg-[#35406E]">
+    <div className="rounded-md w-72 overflow-hidden flex flex-col transition-all duration-300 shadow-lg hover:shadow-2xl">
+      <div className="p-8 bg-[#35406E] flex-1">
         <img src={imgSrc} alt="Image" />
       </div>
-      <div className="py-5 font-bold px-10 bg-[#1C2653] text-white text-center h-28 self-center flex items-center">
+      <div className="py-5 font-bold px-10 flex-1 bg-[#1C2653] text-white text-center self-center flex items-center">
         {text}
       </div>
     </div>
