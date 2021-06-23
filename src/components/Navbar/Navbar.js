@@ -27,7 +27,7 @@ export default function Navbar() {
         </svg>
       </div>
       <div
-        className={`flex flex-col md:flex-row items-center gap-5 md:mt-0 mt-3 transition-all ease-in-out duration-500 ${
+        className={`flex flex-col md:flex-row items-center gap-5 md:mt-0 mt-3 transition-all ease-out duration-500 ${
           !navbarVisible ? `max-h-0 md:max-h-52` : `max-h-52`
         } overflow-hidden`}
       >
