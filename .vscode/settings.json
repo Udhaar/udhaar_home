@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2,
+  "css.lint.unknownAtRules": "ignore"
+}
