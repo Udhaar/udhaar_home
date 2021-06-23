@@ -3,7 +3,7 @@ import Feature from "./feature"
 
 export default function Features() {
   return (
-    <div>
+    <div id="features">
       <h2 className="text-center font-bold text-2xl py-10">Features</h2>
 
       <div class="flex flex-wrap gap-14 pb-14 px-16 items-stretch justify-center">

@@ -32,7 +32,7 @@ export default function Navbar() {
         } overflow-hidden`}
       >
         <NavbarLink link="/" text="How it works" />
-        <NavbarLink link="/" text="Features" />
+        <NavbarLink link="#features" text="Features" />
         <NavbarLink link="/" text="Contact Us" />
         <div className="flex gap-5 mb-3 md:mb-0">
           <NavButton

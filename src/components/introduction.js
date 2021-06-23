@@ -5,7 +5,7 @@ export default function Introduction() {
   return (
     <div className="grid grid-cols-7">
       <div className="order-2 md:order-1 col-span-full md:col-span-3 lg:pt-32 md:pt-20">
-        <h1 className="lg:text-5xl text-center md:ml-10 lg:px-3 md:px-2 md:text-3xl text-2xl mb-2 font-extrabold">
+        <h1 className="lg:text-5xl text-center md:ml-10  px-2 lg:px-3 md:px-2 md:text-3xl text-2xl mb-2 font-extrabold">
           Debt management with friends made easy
         </h1>
         <h3 className="font-bold text-base md:text-lg text-center px-6 lg:py-10 lg:px-8 md:px-8 md:py-6">
