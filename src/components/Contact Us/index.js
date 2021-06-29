@@ -29,7 +29,6 @@ export default function ContactUs() {
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            // onSubmit={handleSubmit}
           >
             <div className="grid grid-cols-2 justify-center gap-10">
               <InputField
@@ -41,13 +40,12 @@ export default function ContactUs() {
                 classes="col-span-2 sm:col-span-1"
               />
             </div>
-            {/* <InputField placeholder="Email" /> */}
             <InputField placeholder="Message" />
-            {/* <div data-netlify-recaptcha="true"></div> */}
             <div className="text-center">
               <input
                 type="submit"
                 value="Send"
+                name="submit"
                 className="text-white rounded-md inline-block border-2 cursor-pointer duration-500 bg-[#1789FC] py-3 mt-5 md:my-5 px-12 font-extrabold border-[#1789FC] hover:border-[#0067cf] hover:bg-[#0067cf]"
               />
             </div>
