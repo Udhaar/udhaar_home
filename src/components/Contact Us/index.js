@@ -1,7 +1,20 @@
 import React from "react"
 import InputField from "./input_field"
+// import {} from "gatsby-link"
 
 export default function ContactUs() {
+  // const handleSubmit = e => {
+  //   e.preventDefault()
+  //   const form = e.target
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: { name: "divya garg" },
+  //   })
+  //     .then(() => alert("done"))
+  //     .catch(error => alert(error))
+  // }
+
   return (
     <div>
       <h2 className="text-center font-bold text-2xl pb-10">Contact us</h2>
@@ -10,7 +23,14 @@ export default function ContactUs() {
           <img src="/contact_us.svg" alt="currency isometric" />
         </div>
         <div className="col-span-2 md:col-span-1 flex items-center">
-          <form className="flex-1" action="POST" data-netlify="true">
+          <form
+            className="flex-1"
+            action="POST"
+            name="contact"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            // onSubmit={handleSubmit}
+          >
             <div className="grid grid-cols-2 justify-center gap-10">
               <InputField
                 placeholder="Name"
@@ -23,7 +43,7 @@ export default function ContactUs() {
             </div>
             {/* <InputField placeholder="Email" /> */}
             <InputField placeholder="Message" />
-            <div data-netlify-recaptcha="true"></div>
+            {/* <div data-netlify-recaptcha="true"></div> */}
             <div className="text-center">
               <input
                 type="submit"
