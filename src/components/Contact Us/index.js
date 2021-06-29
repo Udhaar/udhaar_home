@@ -25,7 +25,7 @@ export default function ContactUs() {
         <div className="col-span-2 md:col-span-1 flex items-center">
           <form
             className="flex-1"
-            action="POST"
+            method="POST"
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
