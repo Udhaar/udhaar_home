@@ -10,7 +10,7 @@ export default function ContactUs() {
           <img src="/contact_us.svg" alt="currency isometric" />
         </div>
         <div className="col-span-2 md:col-span-1 flex items-center">
-          <form className="flex-1">
+          <form className="flex-1" action="POST" data-netlify="true">
             <div className="grid grid-cols-2 justify-center gap-10">
               <InputField
                 placeholder="Name"
@@ -23,6 +23,7 @@ export default function ContactUs() {
             </div>
             {/* <InputField placeholder="Email" /> */}
             <InputField placeholder="Message" />
+            <div data-netlify-recaptcha="true"></div>
             <div className="text-center">
               <input
                 type="submit"
