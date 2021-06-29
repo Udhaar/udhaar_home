@@ -33,7 +33,7 @@ export default function Navbar() {
       >
         <NavbarLink link="/" text="How it works" />
         <NavbarLink link="#features" text="Features" />
-        <NavbarLink link="/" text="Contact Us" />
+        <NavbarLink link="/#contact_us" text="Contact Us" />
         <div className="flex gap-5 mb-3 md:mb-0">
           <NavButton
             link="/"

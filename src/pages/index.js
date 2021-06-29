@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Navbar from "../components/Navbar/Navbar"
 import Introduction from "../components/introduction"
 import Features from "../components/Features"
+import ContactUs from "../components/Contact Us"
 import { Helmet } from "react-helmet"
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         <Navbar />
         <Introduction />
         <Features />
+        <ContactUs />
       </Layout>
     </div>
   )
