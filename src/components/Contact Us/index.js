@@ -1,17 +1,25 @@
 import React from "react"
 import InputField from "./input_field"
-// import {} from "gatsby-link"
+import { navigate } from "gatsby-link"
 
 export default function ContactUs() {
+  function encode(data) {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+  }
+
   const handleSubmit = e => {
     e.preventDefault()
     const form = e.target
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: { name: "divya garg" },
+      body: encode({
+        "form-name": "Divya garg",
+      }),
     })
-      .then(() => alert("done"))
+      .then(() => navigate(form.getAttribute("action")))
       .catch(error => alert(error))
   }
 
@@ -26,6 +34,7 @@ export default function ContactUs() {
           <form
             className="flex-1"
             method="POST"
+            action="/contact/thanks/"
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
