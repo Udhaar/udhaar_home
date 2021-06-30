@@ -3,17 +3,17 @@ import InputField from "./input_field"
 // import {} from "gatsby-link"
 
 export default function ContactUs() {
-  // const handleSubmit = e => {
-  //   e.preventDefault()
-  //   const form = e.target
-  //   fetch("/", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: { name: "divya garg" },
-  //   })
-  //     .then(() => alert("done"))
-  //     .catch(error => alert(error))
-  // }
+  const handleSubmit = e => {
+    e.preventDefault()
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: { name: "divya garg" },
+    })
+      .then(() => alert("done"))
+      .catch(error => alert(error))
+  }
 
   return (
     <div>
@@ -29,6 +29,7 @@ export default function ContactUs() {
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
+            onSubmit={this.handleSubmit}
           >
             <div className="grid grid-cols-2 justify-center gap-10">
               <InputField
