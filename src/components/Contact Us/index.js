@@ -34,7 +34,7 @@ export default function ContactUs() {
           <form
             className="flex-1"
             method="POST"
-            action="/contact/thanks/"
+            action="/"
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
