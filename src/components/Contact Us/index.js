@@ -29,7 +29,7 @@ export default function ContactUs() {
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            onSubmit={this.handleSubmit}
+            onSubmit={handleSubmit}
           >
             <div className="grid grid-cols-2 justify-center gap-10">
               <InputField
