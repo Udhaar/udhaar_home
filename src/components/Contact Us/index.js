@@ -27,7 +27,7 @@ export default function ContactUs() {
               <input
                 type="submit"
                 value="Send"
-                className="text-white rounded-md inline-block border-2 cursor-pointer duration-500 bg-[#1789FC] py-3 mt-5 md:my-5 px-12 font-extrabold border-[#1789FC] hover:border-[#0067cf] hover:bg-[#0067cf]"
+                className="text-white rounded-md inline-block border-2 cursor-pointer duration-500 bg-secondary py-3 mt-5 md:my-5 px-12 font-extrabold border-secondary hover:border-[#0067cf] hover:bg-[#0067cf]"
               />
             </div>
           </form>

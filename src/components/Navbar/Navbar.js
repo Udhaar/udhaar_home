@@ -5,7 +5,7 @@ import NavButton from "./NavButton"
 export default function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false)
   return (
-    <div className="flex flex-col pt-3 md:py-3 md:flex-row justify-between px-3 mb-3 md:mb-0 bg-[#afd6fe] fixed w-screen">
+    <div className="flex flex-col pt-3 md:py-3 md:flex-row justify-between px-3 mb-3 md:mb-0 bg-primarydark fixed w-screen">
       <div className="flex md:w-max w-full justify-between">
         <a href="/">
           <img src="/Logoo.svg" alt="" className="h-10 md:h-14" />
@@ -38,12 +38,12 @@ export default function Navbar() {
           <NavButton
             link="https://app.udhaar.me/login"
             text="Login"
-            classes="bg-[#1789FC] py-2 hover:text-[#0067cf] px-8 font-bold border-[#1789FC] hover:bg-[#D7EBFE]"
+            classes="bg-secondary py-2 hover:text-[#0067cf] px-8 font-bold border-secondary hover:bg-primary"
           />
           <NavButton
             link="https://app.udhaar.me/register"
             text="Sign up"
-            classes="bg-[#CD4B13] py-2 hover:text-[#CD4B13] px-8 font-bold border-[#CD4B13] hover:bg-[#D7EBFE]"
+            classes="bg-[#CD4B13] py-2 hover:text-[#CD4B13] px-8 font-bold border-[#CD4B13] hover:bg-primary"
           />
         </div>
       </div>

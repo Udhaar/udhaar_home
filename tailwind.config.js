@@ -7,6 +7,11 @@ module.exports = {
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
       },
+      colors: {
+        primary: "#D7EBFE",
+        primarydark: "#AFD6FE",
+        secondary: "#1789FC",
+      },
     },
   },
   variants: {

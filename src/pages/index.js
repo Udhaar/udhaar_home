@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
-    <div className="bg-[#D7EBFE]">
+    <div className="bg-primary">
       <Helmet>
         <title>Udhaar</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
