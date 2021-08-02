@@ -5,7 +5,7 @@ import NavButton from "./NavButton"
 export default function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false)
   return (
-    <div className="flex flex-col pt-3 md:py-3 md:flex-row justify-between px-3 mb-3 md:mb-0 bg-[#afd6fe]">
+    <div className="flex flex-col pt-3 md:py-3 md:flex-row justify-between px-3 mb-3 md:mb-0 bg-[#afd6fe] fixed w-screen">
       <div className="flex md:w-max w-full justify-between">
         <a href="/">
           <img src="/Logoo.svg" alt="" className="h-10 md:h-14" />
