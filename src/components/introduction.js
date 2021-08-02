@@ -16,7 +16,7 @@ export default function Introduction() {
         </h3>
         <div className="text-center">
           <NavButton
-            link="/"
+            link="https://app.udhaar.me/register"
             text="Try Now"
             classes={`bg-[#1789FC] py-3 mt-5 md:my-0
 						 px-12 font-extrabold border-[#1789FC] hover:border-[#0067cf] hover:bg-[#0067cf] `}

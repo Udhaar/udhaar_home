@@ -36,12 +36,12 @@ export default function Navbar() {
         <NavbarLink link="/#contact_us" text="Contact Us" />
         <div className="flex gap-5 mb-3 md:mb-0">
           <NavButton
-            link="/"
+            link="https://app.udhaar.me/login"
             text="Login"
             classes="bg-[#1789FC] py-2 hover:text-[#0067cf] px-8 font-bold border-[#1789FC] hover:bg-[#D7EBFE]"
           />
           <NavButton
-            link="/"
+            link="https://app.udhaar.me/register"
             text="Sign up"
             classes="bg-[#CD4B13] py-2 hover:text-[#CD4B13] px-8 font-bold border-[#CD4B13] hover:bg-[#D7EBFE]"
           />
