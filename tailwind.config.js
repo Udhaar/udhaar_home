@@ -8,9 +8,9 @@ module.exports = {
         raleway: ["Raleway", "sans-serif"],
       },
       colors: {
-        primary: "#D7EBFE",
+        primary: "#EAF1FF",
         primarydark: "#AFD6FE",
-        secondary: "#1789FC",
+        secondary: "#3C64B9",
       },
     },
   },
